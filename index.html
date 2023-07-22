@@ -8,32 +8,16 @@
 </head>
 <body>
     <form action="/" method="GET">
-        <div>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
-        </div>
-        <div>
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password">
-        </div>
-        <div>
-            <button type="submit" style="
-                background-color: darkgoldenrod;
-                color: white;
-                font-size: 24px;
-                padding: 2px;
-                margin: 10px;
-                border: 1px solid black;"
-                >Submit</button>
-            <button type="reset" style="
-            background-color: darkgoldenrod;
-            color: white;
-            font-size: 24px;
-            padding: 2px;
-            margin: 10px;
-            border: 1px solid black;"
-            >Reset</button>
-        </div>
+        <label for="brand">Select a brand</label>
+        <input type="text" name="brand" id="brand" list="brand">
+        <datalist id="brands">
+            <option value="Reebok"></option>
+            <option value="Puma"></option>
+            <option value="Adidas"></option>
+            <option value="Nike"></option>
+            <option value="Skechers"></option>
+            <option value="DKS"></option>
+        </datalist>
     </form>
 </body>
 </html>
