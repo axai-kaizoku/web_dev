@@ -1,24 +1,16 @@
 body{
     background-color: whitesmoke;
+    font-family: sans-serif;
 }
 
-table {
-    border: 1px solid black;
-    padding: 25px;
-    background-color: lightgray;
+h1 {
+    color: rgb(15, 133, 162);
 }
 
-td {
-    padding: 2px;
+h3 {
+    color: rgb(83, 11, 91);
 }
 
-#Message {
-    vertical-align: top;
+p {
+    color: rgb(192, 0, 212);
 }
-
-button {
-    border: 2px solid black;
-    padding: 3px;
-    margin: 2px;
-}
-
