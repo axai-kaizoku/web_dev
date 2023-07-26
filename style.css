@@ -3,14 +3,12 @@ body{
     font-family: sans-serif;
 }
 
-h1 {
-    color: rgb(15, 133, 162);
+.redText {
+    color: rgb(229, 40, 87);
+    font-family: sans-serif;
 }
 
-h3 {
-    color: rgb(83, 11, 91);
-}
-
-p {
-    color: rgb(192, 0, 212);
+#myHeader {
+    font-size: 48px;
+    font-family: sans-serif;
 }
