@@ -1,14 +1,43 @@
 body{
-    background-color: whitesmoke;
+    background-color: rgb(134, 131, 131);
     font-family: sans-serif;
+    margin: 20px;
 }
 
-.redText {
-    color: rgb(229, 40, 87);
-    font-family: sans-serif;
+.container #myHeader {
+    color: red;
 }
 
-#myHeader {
-    font-size: 48px;
-    font-family: sans-serif;
+
+p {
+    color: green;   
+}
+
+.myText1 + .myText2 {
+    color: orange;
+}
+
+.inputs {
+    padding: 23px;
+    border: 2px solid white;
+    width: fit-content;
+    position: absolute;
+    left: 30%;
+    right: 5%;
+}
+
+label {
+    font-weight: bold;
+
+}
+
+input {
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+button {
+    font-size: 18px;
 }
